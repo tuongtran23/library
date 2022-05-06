@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: myFirstApp
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/library
+    driverClassName: org.postgresql.Driver
+    username: user1
+    password: password1
+
+netty:
+  default:
+    allocator:
+      max-order: 3
